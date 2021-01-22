@@ -79,7 +79,7 @@ The main plotly.js bundle weights in at:
 
 | plotly.js | plotly.min.js | plotly.min.js + gzip | plotly-with-meta.js |
 |-----------|---------------|----------------------|---------------------|
-| 7.2 MB | 3.3 MB | 1007.2 kB | 7.5 MB |
+| 7.2 MB | 3.3 MB | 1005.4 kB | 7.5 MB |
 
 ## Partial bundles
 
@@ -92,10 +92,15 @@ Starting in `v1.15.0`, plotly.js also ships with several _partial_ bundles:
 - [gl2d](#plotlyjs-gl2d)
 - [mapbox](#plotlyjs-mapbox)
 - [finance](#plotlyjs-finance)
+- [strict](#plotlyjs-strict)
 
 Starting in `v1.39.0`, each plotly.js partial bundle has a corresponding npm package with no dependencies.
 
 Starting in `v1.50.0`, the minified version of each partial bundle is also published to npm in a separate "dist min" package.
+
+Starting in `v2.0.0`, the strict partial bundle includes everything except the traces that require function constructors.
+Over time we hope to include more of the remaining trace types here, after which we intend to work on other strict CSP issues 
+such as inline CSS that we may not be able to include in the main bundle.
 
 ### plotly.js basic
 
@@ -105,7 +110,7 @@ The `basic` partial bundle contains trace modules `scatter`, `bar` and `pie`.
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.6 MB | 937.1 kB | 307.9 kB |
+| 2.8 MB | 994.1 kB | 322.9 kB |
 
 #### CDN links
 
@@ -158,7 +163,7 @@ The `cartesian` partial bundle contains trace modules `scatter`, `bar`, `box`, `
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 3 MB | 1.1 MB | 361.6 kB |
+| 3.4 MB | 1.2 MB | 391.7 kB |
 
 #### CDN links
 
@@ -211,7 +216,7 @@ The `geo` partial bundle contains trace modules `scatter`, `scattergeo` and `cho
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.7 MB | 963.7 kB | 317.3 kB |
+| 2.8 MB | 1020.6 kB | 332.9 kB |
 
 #### CDN links
 
@@ -264,7 +269,7 @@ The `gl3d` partial bundle contains trace modules `scatter`, `scatter3d`, `surfac
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 3.7 MB | 1.4 MB | 463.2 kB |
+| 3.8 MB | 1.5 MB | 478.4 kB |
 
 #### CDN links
 
@@ -311,13 +316,13 @@ npm install plotly.js-gl3d-dist-min
 
 ### plotly.js gl2d
 
-The `gl2d` partial bundle contains trace modules `scatter`, `scattergl`, `splom`, `pointcloud`, `heatmapgl`, `contourgl` and `parcoords`.
+The `gl2d` partial bundle contains trace modules `scatter`, `scattergl`, `splom`, `heatmapgl` and `parcoords`.
 
 #### Stats
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 3.7 MB | 1.5 MB | 488.6 kB |
+| 3.8 MB | 1.5 MB | 496.1 kB |
 
 #### CDN links
 
@@ -370,7 +375,7 @@ The `mapbox` partial bundle contains trace modules `scatter`, `scattermapbox`, `
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 3.4 MB | 1.7 MB | 504.4 kB |
+| 3.6 MB | 1.7 MB | 519.7 kB |
 
 #### CDN links
 
@@ -423,7 +428,7 @@ The `finance` partial bundle contains trace modules `scatter`, `bar`, `histogram
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.8 MB | 1 MB | 333.8 kB |
+| 3 MB | 1.1 MB | 348.7 kB |
 
 #### CDN links
 
@@ -466,6 +471,59 @@ npm install plotly.js-finance-dist-min
 | dist bundle (minified) | `dist/plotly-finance.min.js` |
 | ES6 module | `import Plotly from 'plotly.js/lib/index-finance'` |
 | CommonJS | `require('plotly.js/lib/index-finance')` |
+
+
+### plotly.js strict
+
+The `strict` partial bundle contains trace modules `scatter`, `bar`, `box`, `heatmap`, `histogram`, `histogram2d`, `histogram2dcontour`, `contour`, `scatterternary`, `violin`, `funnel`, `waterfall`, `image`, `pie`, `sunburst`, `treemap`, `funnelarea`, `scattergeo`, `choropleth`, `parcoords`, `parcats`, `scattermapbox`, `choroplethmapbox`, `densitymapbox`, `sankey`, `indicator`, `table`, `carpet`, `scattercarpet`, `contourcarpet`, `ohlc`, `candlestick`, `scatterpolar` and `barpolar`.
+
+#### Stats
+
+| Raw size | Minified size | Minified + gzip size |
+|------|-----------------|------------------------|
+| 5.6 MB | 2.6 MB | 773.6 kB |
+
+#### CDN links
+
+| Flavor | URL |
+| ------ | --- |
+| Latest | https://cdn.plot.ly/plotly-strict-latest.js |
+| Latest minified | https://cdn.plot.ly/plotly-strict-latest.min.js |
+| Tagged | https://cdn.plot.ly/plotly-strict-1.58.4.js |
+| Tagged minified | https://cdn.plot.ly/plotly-strict-1.58.4.min.js |
+
+#### npm package (starting in `v1.39.0`)
+
+Install [`plotly.js-strict-dist`](https://www.npmjs.com/package/plotly.js-strict-dist) with
+```
+npm install plotly.js-strict-dist
+```
+
+ES6 module usage:
+```js
+import Plotly from 'plotly.js-strict-dist'
+```
+
+CommonJS usage:
+```js
+var Plotly = require('plotly.js-strict-dist');
+```
+
+#### dist min npm package (starting in `v1.50.0`)
+
+Install [`plotly.js-strict-dist-min`](https://www.npmjs.com/package/plotly.js-strict-dist-min) with
+```
+npm install plotly.js-strict-dist-min
+```
+
+#### Other plotly.js entry points
+
+| Flavor | Location |
+|---------------|----------|
+| dist bundle | `dist/plotly-strict.js` |
+| dist bundle (minified) | `dist/plotly-strict.min.js` |
+| ES6 module | `import Plotly from 'plotly.js/lib/index-strict'` |
+| CommonJS | `require('plotly.js/lib/index-strict')` |
 
 
 ----------------
