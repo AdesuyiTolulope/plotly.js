@@ -73,143 +73,77 @@ for(var selector in rules) {
 }
 
 },{"../src/lib":237}],2:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/transforms/aggregate');
 
 },{"../src/transforms/aggregate":460}],3:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/bar');
 
 },{"../src/traces/bar":337}],4:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/components/calendars');
 
 },{"../src/components/calendars":106}],5:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/candlestick');
 
 },{"../src/traces/candlestick":355}],6:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/core');
 
 },{"../src/core":218}],7:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/transforms/filter');
 
 },{"../src/transforms/filter":461}],8:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/funnel');
 
 },{"../src/traces/funnel":364}],9:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/funnelarea');
 
 },{"../src/traces/funnelarea":373}],10:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/transforms/groupby');
 
 },{"../src/transforms/groupby":462}],11:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/histogram');
 
 },{"../src/traces/histogram":389}],12:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -230,52 +164,28 @@ Plotly.register([
 module.exports = _dereq_('./register_extra')(Plotly);
 
 },{"./bar":3,"./candlestick":5,"./core":6,"./funnel":8,"./funnelarea":9,"./histogram":11,"./indicator":13,"./ohlc":14,"./pie":15,"./register_extra":16,"./waterfall":18}],13:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/indicator');
 
 },{"../src/traces/indicator":396}],14:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/ohlc');
 
 },{"../src/traces/ohlc":402}],15:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/traces/pie');
 
 },{"../src/traces/pie":413}],16:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -306,26 +216,14 @@ module.exports = function registerExtra(Plotly) {
 };
 
 },{"./aggregate":2,"./calendars":4,"./filter":7,"./groupby":10,"./sort":17}],17:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
 module.exports = _dereq_('../src/transforms/sort');
 
 },{"../src/transforms/sort":464}],18:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -21656,13 +21554,7 @@ assign(main.baseCalendar.prototype, {
 
 
 },{"./main":88,"object-assign":61}],90:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -21727,13 +21619,7 @@ module.exports = [
 ];
 
 },{}],91:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -22023,13 +21909,7 @@ module.exports = templatedArray('annotation', {
 });
 
 },{"../../constants/axis_placeable_objects":211,"../../plot_api/plot_template":272,"../../plots/cartesian/constants":289,"../../plots/font_attributes":311,"./arrow_paths":90}],92:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -22114,13 +21994,7 @@ function calcAxisExpansion(ann, ax) {
 }
 
 },{"../../lib":237,"../../plots/cartesian/axes":283,"./draw":97}],93:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -22252,13 +22126,7 @@ function clickData2r(d, ax) {
 }
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../registry":319}],94:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -22331,13 +22199,7 @@ module.exports = function handleAnnotationCommonDefaults(annIn, annOut, fullLayo
 };
 
 },{"../../lib":237,"../color":108}],95:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -22394,13 +22256,7 @@ module.exports = function convertCoords(gd, ax, newType, doExtra) {
 };
 
 },{"../../lib/to_log_range":261,"fast-isnumeric":23}],96:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -22502,13 +22358,7 @@ function handleAnnotationDefaults(annIn, annOut, fullLayout) {
 }
 
 },{"../../lib":237,"../../plots/array_container_defaults":278,"../../plots/cartesian/axes":283,"./attributes":91,"./common_defaults":94}],97:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -23263,13 +23113,7 @@ function drawRaw(gd, options, index, subplotId, xa, ya) {
 }
 
 },{"../../lib":237,"../../lib/setcursor":257,"../../lib/svg_text_utils":259,"../../plot_api/plot_template":272,"../../plots/cartesian/axes":283,"../../plots/plots":317,"../../registry":319,"../color":108,"../dragelement":127,"../drawing":130,"../fx":148,"./draw_arrow_head":98,"@plotly/d3":19}],98:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -23419,13 +23263,7 @@ module.exports = function drawArrowHead(el3, ends, options) {
 };
 
 },{"../../lib":237,"../color":108,"./arrow_paths":90,"@plotly/d3":19}],99:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -23453,13 +23291,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian/include_components":295,"./attributes":91,"./calc_autorange":92,"./click":93,"./convert_coords":95,"./defaults":96,"./draw":97}],100:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -23531,13 +23363,7 @@ module.exports = overrideAll(templatedArray('annotation', {
 }), 'calc', 'from-root');
 
 },{"../../plot_api/edit_types":265,"../../plot_api/plot_template":272,"../annotations/attributes":91}],101:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -23596,13 +23422,7 @@ function mockAnnAxes(ann, scene) {
 }
 
 },{"../../lib":237,"../../plots/cartesian/axes":283}],102:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -23672,13 +23492,7 @@ function handleAnnotationDefaults(annIn, annOut, sceneLayout, opts) {
 }
 
 },{"../../lib":237,"../../plots/array_container_defaults":278,"../../plots/cartesian/axes":283,"../annotations/common_defaults":94,"./attributes":100}],103:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -23724,13 +23538,7 @@ module.exports = function draw(scene) {
 };
 
 },{"../../plots/gl3d/project":314,"../annotations/draw":97}],104:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -23772,13 +23580,7 @@ function includeGL3D(layoutIn, layoutOut) {
 }
 
 },{"../../lib":237,"../../registry":319,"./attributes":100,"./convert":101,"./defaults":102,"./draw":103}],105:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -23805,13 +23607,7 @@ _dereq_('world-calendars/dist/calendars/thai');
 _dereq_('world-calendars/dist/calendars/ummalqura');
 
 },{"world-calendars/dist/calendars/chinese":74,"world-calendars/dist/calendars/coptic":75,"world-calendars/dist/calendars/discworld":76,"world-calendars/dist/calendars/ethiopian":77,"world-calendars/dist/calendars/hebrew":78,"world-calendars/dist/calendars/islamic":79,"world-calendars/dist/calendars/julian":80,"world-calendars/dist/calendars/mayan":81,"world-calendars/dist/calendars/nanakshahi":82,"world-calendars/dist/calendars/nepali":83,"world-calendars/dist/calendars/persian":84,"world-calendars/dist/calendars/taiwan":85,"world-calendars/dist/calendars/thai":86,"world-calendars/dist/calendars/ummalqura":87,"world-calendars/dist/main":88,"world-calendars/dist/plus":89}],106:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -24077,13 +23873,7 @@ module.exports = {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"./calendars":105}],107:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -24117,13 +23907,7 @@ exports.borderLine = '#BEC8D9';
 exports.lightFraction = 100 * (0xe - 0x4) / (0xf - 0x4);
 
 },{}],108:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -24291,13 +24075,7 @@ function cleanOne(val) {
 }
 
 },{"./attributes":107,"fast-isnumeric":23,"tinycolor2":73}],109:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -24444,13 +24222,7 @@ module.exports = overrideAll({
 }, 'colorbars', 'from-root');
 
 },{"../../lib/extend":231,"../../plot_api/edit_types":265,"../../plots/cartesian/layout_attributes":297,"../../plots/font_attributes":311}],110:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -24472,13 +24244,7 @@ module.exports = {
 };
 
 },{}],111:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -24542,13 +24308,7 @@ module.exports = function colorbarDefaults(containerIn, containerOut, layout) {
 };
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../plots/cartesian/tick_label_defaults":304,"../../plots/cartesian/tick_mark_defaults":305,"../../plots/cartesian/tick_value_defaults":306,"./attributes":109}],112:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -25276,13 +25036,7 @@ module.exports = {
 };
 
 },{"../../constants/alignment":210,"../../lib":237,"../../lib/extend":231,"../../lib/setcursor":257,"../../lib/svg_text_utils":259,"../../plots/cartesian/axes":283,"../../plots/cartesian/axis_defaults":285,"../../plots/cartesian/layout_attributes":297,"../../plots/cartesian/position_defaults":300,"../../plots/plots":317,"../../registry":319,"../color":108,"../colorscale/helpers":119,"../dragelement":127,"../drawing":130,"../titles":203,"./constants":110,"@plotly/d3":19,"tinycolor2":73}],113:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -25295,13 +25049,7 @@ module.exports = function hasColorbar(container) {
 };
 
 },{"../../lib":237}],114:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -25317,13 +25065,7 @@ module.exports = {
 };
 
 },{"./attributes":109,"./defaults":111,"./draw":112,"./has_colorbar":113}],115:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -25505,13 +25247,7 @@ module.exports = function colorScaleAttrs(context, opts) {
 };
 
 },{"../../lib/regex":253,"../colorbar/attributes":109,"./scales.js":123}],116:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -25584,13 +25320,7 @@ module.exports = function calc(gd, trace, opts) {
 };
 
 },{"../../lib":237,"./helpers":119,"fast-isnumeric":23}],117:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -25661,13 +25391,7 @@ module.exports = function crossTraceDefaults(fullData, fullLayout) {
 };
 
 },{"../../lib":237,"./helpers":119}],118:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -25786,13 +25510,7 @@ module.exports = function colorScaleDefaults(parentContIn, parentContOut, layout
 };
 
 },{"../../lib":237,"../../registry":319,"../colorbar/defaults":111,"../colorbar/has_colorbar":113,"./scales":123,"fast-isnumeric":23}],119:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26026,13 +25744,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../color":108,"./scales":123,"@plotly/d3":19,"fast-isnumeric":23,"tinycolor2":73}],120:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26068,13 +25780,7 @@ module.exports = {
 };
 
 },{"./attributes":115,"./calc":116,"./cross_trace_defaults":117,"./defaults":118,"./helpers":119,"./layout_attributes":121,"./layout_defaults":122,"./scales":123}],121:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26122,13 +25828,7 @@ module.exports = {
 };
 
 },{"../../lib/extend":231,"./attributes":115,"./scales":123}],122:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26173,13 +25873,7 @@ module.exports = function supplyLayoutDefaults(layoutIn, layoutOut) {
 };
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"./defaults":118,"./layout_attributes":121}],123:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26377,13 +26071,7 @@ module.exports = {
 };
 
 },{"tinycolor2":73}],124:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -26410,13 +26098,7 @@ module.exports = function align(v, dv, v0, v1, anchor) {
 };
 
 },{}],125:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -26448,13 +26130,7 @@ module.exports = function getCursor(x, y, xanchor, yanchor) {
 };
 
 },{"../../lib":237}],126:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26507,13 +26183,7 @@ exports.selectingOrDrawing = function(dragmode) {
 };
 
 },{}],127:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26799,13 +26469,7 @@ function pointerOffset(e) {
 }
 
 },{"../../lib":237,"../../plots/cartesian/constants":289,"./align":124,"./cursor":125,"./unhover":128,"has-hover":54,"has-passive-events":55,"mouse-event-offset":59}],128:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -26854,13 +26518,7 @@ unhover.raw = function raw(gd, evt) {
 };
 
 },{"../../lib/dom":229,"../../lib/events":230,"../../lib/throttle":260,"../fx/constants":142}],129:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -26877,13 +26535,7 @@ exports.dash = {
 };
 
 },{}],130:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -28074,13 +27726,7 @@ drawing.setTextPointsScale = function(selection, xScale, yScale) {
 };
 
 },{"../../components/fx/helpers":144,"../../constants/alignment":210,"../../constants/interactions":215,"../../constants/xmlns_namespaces":217,"../../lib":237,"../../lib/svg_text_utils":259,"../../registry":319,"../../traces/scatter/make_bubble_size_func":437,"../../traces/scatter/subtypes":445,"../color":108,"../colorscale":120,"./symbol_defs":131,"@plotly/d3":19,"fast-isnumeric":23,"tinycolor2":73}],131:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -28638,13 +28284,7 @@ module.exports = {
 };
 
 },{"@plotly/d3":19}],132:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -28729,13 +28369,7 @@ module.exports = {
 };
 
 },{}],133:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -28815,13 +28449,7 @@ function calcOneAxis(calcTrace, trace, axis, coord) {
 }
 
 },{"../../lib":237,"../../plots/cartesian/axes":283,"../../registry":319,"./compute_error":134,"fast-isnumeric":23}],134:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -28916,13 +28544,7 @@ function makeComputeErrorValue(type, value) {
 }
 
 },{}],135:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -28991,13 +28613,7 @@ module.exports = function(traceIn, traceOut, defaultColor, opts) {
 };
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../registry":319,"./attributes":132,"fast-isnumeric":23}],136:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29060,13 +28676,7 @@ function hoverInfo(calcPoint, trace, hoverPoint) {
 }
 
 },{"../../lib":237,"../../plot_api/edit_types":265,"./attributes":132,"./calc":133,"./compute_error":134,"./defaults":135,"./plot":137,"./style":138}],137:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -29232,13 +28842,7 @@ function errorCoords(d, xa, ya) {
 }
 
 },{"../../traces/scatter/subtypes":445,"../drawing":130,"@plotly/d3":19,"fast-isnumeric":23}],138:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -29269,13 +28873,7 @@ module.exports = function style(traces) {
 };
 
 },{"../color":108,"@plotly/d3":19}],139:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29302,13 +28900,7 @@ module.exports = {
 };
 
 },{"../../lib/extend":231,"../../plots/font_attributes":311,"./layout_attributes":149}],140:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29361,13 +28953,7 @@ function paste(traceAttr, cd, cdAttr, fn) {
 }
 
 },{"../../lib":237,"../../registry":319}],141:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29398,13 +28984,7 @@ module.exports = function click(gd, evt, subplot) {
 };
 
 },{"../../registry":319,"./hover":145}],142:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29430,13 +29010,7 @@ module.exports = {
 };
 
 },{}],143:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29456,13 +29030,7 @@ module.exports = function supplyDefaults(traceIn, traceOut, defaultColor, layout
 };
 
 },{"../../lib":237,"./attributes":139,"./hoverlabel_defaults":146}],144:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -29718,13 +29286,7 @@ exports.isXYhover = function(hovermode) {
 };
 
 },{"../../lib":237}],145:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31596,13 +31158,7 @@ function plainText(s, len) {
 }
 
 },{"../../lib":237,"../../lib/events":230,"../../lib/override_cursor":248,"../../lib/svg_text_utils":259,"../../plots/cartesian/axes":283,"../../registry":319,"../color":108,"../dragelement":127,"../drawing":130,"../legend/defaults":160,"../legend/draw":161,"./constants":142,"./helpers":144,"@plotly/d3":19,"fast-isnumeric":23,"tinycolor2":73}],146:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31642,13 +31198,7 @@ module.exports = function handleHoverLabelDefaults(contIn, contOut, coerce, opts
 };
 
 },{"../../lib":237,"../color":108,"./helpers":144}],147:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31698,13 +31248,7 @@ function isHoriz(fullData, fullLayout) {
 }
 
 },{"../../lib":237,"./layout_attributes":149}],148:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31777,13 +31321,7 @@ function castHoverinfo(trace, fullLayout, ptNumber) {
 }
 
 },{"../../lib":237,"../dragelement":127,"./attributes":139,"./calc":140,"./click":141,"./constants":142,"./defaults":143,"./helpers":144,"./hover":145,"./layout_attributes":149,"./layout_defaults":150,"./layout_global_defaults":151,"@plotly/d3":19}],149:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31872,13 +31410,7 @@ module.exports = {
 };
 
 },{"../../plots/font_attributes":311,"./constants":142}],150:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31920,13 +31452,7 @@ module.exports = function supplyLayoutDefaults(layoutIn, layoutOut, fullData) {
 };
 
 },{"../../lib":237,"./helpers":144,"./hoverlabel_defaults":146,"./hovermode_defaults":147,"./layout_attributes":149}],151:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -31943,13 +31469,7 @@ module.exports = function supplyLayoutGlobalDefaults(layoutIn, layoutOut) {
 };
 
 },{"../../lib":237,"./hoverlabel_defaults":146,"./layout_attributes":149}],152:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32294,13 +31814,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../../lib/regex":253,"../../plot_api/plot_template":272,"../../plots/cartesian/constants":289,"../../plots/domain":310}],153:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32404,13 +31918,7 @@ module.exports = templatedArray('image', {
 });
 
 },{"../../constants/axis_placeable_objects":211,"../../plot_api/plot_template":272,"../../plots/cartesian/constants":289}],154:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -32485,13 +31993,7 @@ module.exports = function convertCoords(gd, ax, newType, doExtra) {
 };
 
 },{"../../lib/to_log_range":261,"fast-isnumeric":23}],155:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32550,13 +32052,7 @@ function imageDefaults(imageIn, imageOut, fullLayout) {
 }
 
 },{"../../lib":237,"../../plots/array_container_defaults":278,"../../plots/cartesian/axes":283,"./attributes":153}],156:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32808,13 +32304,7 @@ module.exports = function draw(gd) {
 };
 
 },{"../../constants/xmlns_namespaces":217,"../../plots/cartesian/axes":283,"../../plots/cartesian/axis_ids":286,"../drawing":130,"@plotly/d3":19}],157:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32832,13 +32322,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian/include_components":295,"./attributes":153,"./convert_coords":154,"./defaults":155,"./draw":156}],158:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32963,13 +32447,7 @@ module.exports = {
 };
 
 },{"../../plots/font_attributes":311,"../color/attributes":107}],159:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -32987,13 +32465,7 @@ module.exports = {
 };
 
 },{}],160:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -33122,13 +32594,7 @@ module.exports = function legendDefaults(layoutIn, layoutOut, fullData) {
 };
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../plots/layout_attributes":315,"../../registry":319,"./attributes":158,"./helpers":164}],161:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -33919,13 +33385,7 @@ function getYanchor(opts) {
 }
 
 },{"../../constants/alignment":210,"../../lib":237,"../../lib/events":230,"../../lib/svg_text_utils":259,"../../plots/plots":317,"../../registry":319,"../color":108,"../dragelement":127,"../drawing":130,"./constants":159,"./get_legend_data":162,"./handle_click":163,"./helpers":164,"./style":166,"@plotly/d3":19}],162:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -34028,13 +33488,7 @@ module.exports = function getLegendData(calcdata, opts) {
 };
 
 },{"../../registry":319,"./helpers":164}],163:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -34267,13 +33721,7 @@ module.exports = function handleClick(g, gd, numClicks) {
 };
 
 },{"../../lib":237,"../../registry":319}],164:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -34291,13 +33739,7 @@ exports.isReversed = function isReversed(legendLayout) {
 };
 
 },{}],165:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -34315,13 +33757,7 @@ module.exports = {
 };
 
 },{"./attributes":158,"./defaults":160,"./draw":161,"./style":166}],166:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -34948,13 +34384,7 @@ function getGradientDirection(reversescale, isRadial) {
 }
 
 },{"../../lib":237,"../../registry":319,"../../traces/pie/helpers":412,"../../traces/pie/style_one":418,"../../traces/scatter/subtypes":445,"../color":108,"../colorscale/helpers":119,"../drawing":130,"./constants":159,"@plotly/d3":19}],167:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -35684,13 +35114,7 @@ function resetView(gd, subplotType) {
 }
 
 },{"../../fonts/ploticon":220,"../../lib":237,"../../plots/cartesian/axis_ids":286,"../../plots/plots":317,"../../registry":319,"../shapes/draw":189}],168:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -35698,13 +35122,7 @@ function resetView(gd, subplotType) {
 exports.manage = _dereq_('./manage');
 
 },{"./manage":169}],169:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -35994,13 +35412,7 @@ function fillCustomButton(customButtons) {
 }
 
 },{"../../plots/cartesian/axis_ids":286,"../../registry":319,"../../traces/scatter/subtypes":445,"../fx/helpers":144,"./buttons":167,"./modebar":170}],170:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -36340,13 +35752,7 @@ function createModeBar(gd, buttons) {
 module.exports = createModeBar;
 
 },{"../../fonts/ploticon":220,"../../lib":237,"@plotly/d3":19,"fast-isnumeric":23}],171:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36446,13 +35852,7 @@ module.exports = {
 };
 
 },{"../../plot_api/plot_template":272,"../../plots/font_attributes":311,"../color/attributes":107}],172:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36475,13 +35875,7 @@ module.exports = {
 };
 
 },{}],173:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36567,13 +35961,7 @@ function getPosDflt(containerOut, layout, counterAxes) {
 }
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../plots/array_container_defaults":278,"../color":108,"./attributes":171,"./constants":172}],174:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36822,13 +36210,7 @@ function reposition(gd, buttons, opts, axName, selector) {
 }
 
 },{"../../constants/alignment":210,"../../lib":237,"../../lib/svg_text_utils":259,"../../plots/cartesian/axis_ids":286,"../../plots/plots":317,"../../registry":319,"../color":108,"../drawing":130,"./constants":172,"./get_update_object":175,"@plotly/d3":19}],175:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -36876,13 +36258,7 @@ function getXRange(axisLayout, buttonLayout) {
 }
 
 },{"@plotly/d3":19}],176:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36903,13 +36279,7 @@ module.exports = {
 };
 
 },{"./attributes":171,"./defaults":173,"./draw":174}],177:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36963,13 +36333,7 @@ module.exports = {
 };
 
 },{"../color/attributes":107}],178:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -36997,13 +36361,7 @@ module.exports = function calcAutorange(gd) {
 };
 
 },{"../../plots/cartesian/autorange":282,"../../plots/cartesian/axis_ids":286,"./constants":179}],179:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -37053,13 +36411,7 @@ module.exports = {
 };
 
 },{}],180:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -37139,13 +36491,7 @@ module.exports = function handleDefaults(layoutIn, layoutOut, axName) {
 };
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../plots/cartesian/axis_ids":286,"./attributes":177,"./oppaxis_attributes":184}],181:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -37783,13 +37129,7 @@ function drawGrabbers(rangeSlider, gd, axisOpts, opts) {
 }
 
 },{"../../lib":237,"../../lib/setcursor":257,"../../plots/cartesian":296,"../../plots/cartesian/axis_ids":286,"../../plots/plots":317,"../../registry":319,"../color":108,"../dragelement":127,"../drawing":130,"../titles":203,"./constants":179,"@plotly/d3":19}],182:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -37858,13 +37198,7 @@ exports.autoMarginOpts = function(gd, ax) {
 };
 
 },{"../../constants/alignment":210,"../../lib/svg_text_utils":259,"../../plots/cartesian/axis_ids":286,"./constants":179}],183:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -37897,13 +37231,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"./attributes":177,"./calc_autorange":178,"./defaults":180,"./draw":181,"./helpers":182,"./oppaxis_attributes":184}],184:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -37931,13 +37259,7 @@ module.exports = {
 };
 
 },{}],185:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -38049,13 +37371,7 @@ module.exports = templatedArray('shape', {
 });
 
 },{"../../constants/axis_placeable_objects":211,"../../lib/extend":231,"../../plot_api/plot_template":272,"../../traces/scatter/attributes":420,"../annotations/attributes":91,"../drawing/attributes":129}],186:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -38169,13 +37485,7 @@ function shapeBounds(ax, v0, v1, path, paramsToUse) {
 }
 
 },{"../../lib":237,"../../plots/cartesian/axes":283,"./constants":187,"./helpers":196}],187:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -38233,13 +37543,7 @@ module.exports = {
 };
 
 },{}],188:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -38364,13 +37668,7 @@ function handleShapeDefaults(shapeIn, shapeOut, fullLayout) {
 }
 
 },{"../../lib":237,"../../plots/array_container_defaults":278,"../../plots/cartesian/axes":283,"./attributes":185,"./helpers":196}],189:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -39138,13 +38436,7 @@ function eraseActiveShape(gd) {
 }
 
 },{"../../lib":237,"../../lib/setcursor":257,"../../plot_api/plot_template":272,"../../plots/cartesian/axes":283,"../../plots/cartesian/handle_outline":293,"../../registry":319,"../color":108,"../dragelement":127,"../drawing":130,"./constants":187,"./draw_newshape/display_outlines":193,"./draw_newshape/helpers":194,"./helpers":196}],190:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -39222,13 +38514,7 @@ module.exports = {
 };
 
 },{"../../../lib/extend":231,"../../drawing/attributes":129}],191:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -39246,13 +38532,7 @@ module.exports = {
 };
 
 },{}],192:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -39278,13 +38558,7 @@ module.exports = function supplyDrawNewShapeDefaults(layoutIn, layoutOut, coerce
 };
 
 },{"../../color":108}],193:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -39573,13 +38847,7 @@ function recordPositions(polygonsOut, polygonsIn) {
 }
 
 },{"../../../plots/cartesian/handle_outline":293,"../../../registry":319,"../../dragelement":127,"../../dragelement/helpers":126,"./constants":191,"./helpers":194,"./newshapes":195}],194:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -39911,13 +39179,7 @@ exports.ellipseOver = function(pos) {
 };
 
 },{"../../../plots/cartesian/helpers":294,"./constants":191,"parse-svg-path":62}],195:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -40170,13 +39432,7 @@ function fixDatesForPaths(polygons, xaxis, yaxis) {
 }
 
 },{"../../../plots/cartesian/handle_outline":293,"../../../plots/cartesian/helpers":294,"../../dragelement/helpers":126,"./constants":191,"./helpers":194}],196:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -40328,13 +39584,7 @@ exports.makeOptionsAndPlotinfo = function(gd, index) {
 };
 
 },{"../../lib":237,"./constants":187}],197:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -40356,13 +39606,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian/include_components":295,"./attributes":185,"./calc_autorange":186,"./defaults":188,"./draw":189,"./draw_newshape/defaults":192}],198:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -40538,13 +39782,7 @@ module.exports = overrideAll(templatedArray('slider', {
 }), 'arraydraw', 'from-root');
 
 },{"../../lib/extend":231,"../../plot_api/edit_types":265,"../../plot_api/plot_template":272,"../../plots/animation_attributes":277,"../../plots/font_attributes":311,"../../plots/pad_attributes":316,"./constants":199}],199:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -40632,13 +39870,7 @@ module.exports = {
 };
 
 },{}],200:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -40747,13 +39979,7 @@ function stepDefaults(valueIn, valueOut) {
 }
 
 },{"../../lib":237,"../../plots/array_container_defaults":278,"./attributes":198,"./constants":199}],201:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -41378,13 +40604,7 @@ function drawRail(sliderGroup, sliderOpts) {
 }
 
 },{"../../constants/alignment":210,"../../lib":237,"../../lib/svg_text_utils":259,"../../plot_api/plot_template":272,"../../plots/plots":317,"../color":108,"../drawing":130,"./constants":199,"@plotly/d3":19}],202:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -41401,13 +40621,7 @@ module.exports = {
 };
 
 },{"./attributes":198,"./constants":199,"./defaults":200,"./draw":201}],203:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -41669,13 +40883,7 @@ module.exports = {
 };
 
 },{"../../constants/alignment":210,"../../constants/interactions":215,"../../lib":237,"../../lib/svg_text_utils":259,"../../plots/plots":317,"../../registry":319,"../color":108,"../drawing":130,"@plotly/d3":19,"fast-isnumeric":23}],204:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -41800,13 +41008,7 @@ module.exports = overrideAll(templatedArray('updatemenu', {
 }), 'arraydraw', 'from-root');
 
 },{"../../lib/extend":231,"../../plot_api/edit_types":265,"../../plot_api/plot_template":272,"../../plots/font_attributes":311,"../../plots/pad_attributes":316,"../color/attributes":107}],205:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -41881,13 +41083,7 @@ module.exports = {
 };
 
 },{}],206:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -41964,13 +41160,7 @@ function buttonDefaults(buttonIn, buttonOut) {
 }
 
 },{"../../lib":237,"../../plots/array_container_defaults":278,"./attributes":204,"./constants":205}],207:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -42617,13 +41807,7 @@ function removeAllButtons(gButton, newMenuIndexAttr) {
 },{"../../constants/alignment":210,"../../lib":237,"../../lib/svg_text_utils":259,"../../plot_api/plot_template":272,"../../plots/plots":317,"../color":108,"../drawing":130,"./constants":205,"./scrollbox":209,"@plotly/d3":19}],208:[function(_dereq_,module,exports){
 arguments[4][202][0].apply(exports,arguments)
 },{"./attributes":204,"./constants":205,"./defaults":206,"./draw":207,"dup":202}],209:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43082,13 +42266,7 @@ ScrollBox.prototype.setTranslate = function setTranslate(translateX, translateY)
 };
 
 },{"../../lib":237,"../color":108,"../drawing":130,"@plotly/d3":19}],210:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43147,13 +42325,7 @@ module.exports = {
 };
 
 },{}],211:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -43179,13 +42351,7 @@ module.exports = {
 };
 
 },{}],212:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43201,13 +42367,7 @@ module.exports = {
 };
 
 },{}],213:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43217,13 +42377,7 @@ module.exports = {
 };
 
 },{}],214:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43255,13 +42409,7 @@ module.exports = {
 };
 
 },{}],215:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43278,13 +42426,7 @@ module.exports = {
 };
 
 },{}],216:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43351,13 +42493,7 @@ module.exports = {
 };
 
 },{}],217:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -43375,13 +42511,7 @@ exports.svgAttrs = {
 };
 
 },{}],218:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43469,13 +42599,7 @@ exports.Snapshot = _dereq_('./snapshot');
 exports.PlotSchema = _dereq_('./plot_api/plot_schema');
 
 },{"../build/plotcss":1,"./components/annotations":99,"./components/annotations3d":104,"./components/colorbar":114,"./components/colorscale":120,"./components/errorbars":136,"./components/fx":148,"./components/grid":152,"./components/images":157,"./components/legend":165,"./components/rangeselector":176,"./components/rangeslider":183,"./components/shapes":197,"./components/sliders":202,"./components/updatemenus":208,"./fonts/mathjax_config":219,"./fonts/ploticon":220,"./locale-en":263,"./locale-en-us":262,"./plot_api":267,"./plot_api/plot_schema":271,"./plots/plots":317,"./registry":319,"./snapshot":324,"./traces/scatter":432,"./version":465,"native-promise-only":60}],219:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43500,13 +42624,7 @@ module.exports = function() {
 };
 
 },{}],220:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43680,13 +42798,7 @@ module.exports = {
 };
 
 },{}],221:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -43744,13 +42856,7 @@ exports.isBottomAnchor = function isBottomAnchor(opts) {
 };
 
 },{}],222:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -43985,13 +43091,7 @@ module.exports = {
 };
 
 },{"./mod":244}],223:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -44135,13 +43235,7 @@ function _rowLength(z, fn, len0) {
 }
 
 },{}],224:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -44168,13 +43262,7 @@ module.exports = function cleanNumber(v) {
 };
 
 },{"../constants/numerical":216,"fast-isnumeric":23}],225:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -44196,13 +43284,7 @@ module.exports = function clearGlCanvases(gd) {
 };
 
 },{}],226:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -44219,13 +43301,7 @@ module.exports = function clearResponsive(gd) {
 };
 
 },{}],227:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -44641,13 +43717,7 @@ function validate(value, opts) {
 exports.validate = validate;
 
 },{"../components/colorscale/scales":123,"../constants/interactions":215,"../plots/attributes":279,"./array":223,"./mod":244,"./nested_property":245,"./regex":253,"fast-isnumeric":23,"tinycolor2":73}],228:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -45242,13 +44312,7 @@ exports.findExactDates = function(data, calendar) {
 };
 
 },{"../constants/numerical":216,"../registry":319,"./loggers":241,"./mod":244,"d3-time-format":21,"fast-isnumeric":23}],229:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -45420,13 +44484,7 @@ module.exports = {
 };
 
 },{"./loggers":241,"./matrix":243,"@plotly/d3":19,"gl-mat4":39}],230:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -45593,13 +44651,7 @@ var Events = {
 module.exports = Events;
 
 },{"events":20}],231:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -45707,13 +44759,7 @@ function _extend(inputs, isDeep, keepAllKeys, noArrayCopies) {
 }
 
 },{"./is_plain_object.js":238}],232:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -45758,13 +44804,7 @@ module.exports = function filterUnique(array) {
 };
 
 },{}],233:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -45806,13 +44846,7 @@ function isCalcData(cont) {
 }
 
 },{}],234:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -46050,13 +45084,7 @@ exports.findPointOnPath = function findPointOnPath(path, val, coord, opts) {
 };
 
 },{"./mod":244}],235:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -46066,13 +45094,7 @@ exports.findPointOnPath = function findPointOnPath(path, val, coord, opts) {
 module.exports = function identity(d) { return d; };
 
 },{}],236:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -46108,13 +45130,7 @@ module.exports = function incrementNumeric(x, delta) {
 };
 
 },{}],237:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -47382,13 +46398,7 @@ lib.join2 = function(arr, mainSeparator, lastSeparator) {
 };
 
 },{"../constants/numerical":216,"./anchor_utils":221,"./angles":222,"./array":223,"./clean_number":224,"./clear_responsive":226,"./coerce":227,"./dates":228,"./dom":229,"./extend":231,"./filter_unique":232,"./filter_visible":233,"./geometry2d":234,"./identity":235,"./increment":236,"./is_plain_object":238,"./keyed_container":239,"./localize":240,"./loggers":241,"./make_trace_groups":242,"./matrix":243,"./mod":244,"./nested_property":245,"./noop":246,"./notifier":247,"./preserve_drawing_buffer":250,"./push_unique":251,"./regex":253,"./relative_attr":254,"./relink_private":255,"./search":256,"./stats":258,"./throttle":260,"./to_log_range":261,"@plotly/d3":19,"d3-time-format":21,"fast-isnumeric":23}],238:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -47410,13 +46420,7 @@ module.exports = function isPlainObject(obj) {
 };
 
 },{}],239:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -47603,13 +46607,7 @@ module.exports = function keyedContainer(baseObj, path, keyName, valueName) {
 };
 
 },{"./nested_property":245}],240:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -47659,13 +46657,7 @@ module.exports = function localize(gd, s) {
 };
 
 },{"../registry":319}],241:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -47744,13 +46736,7 @@ loggers.error = function() {
 };
 
 },{"../plot_api/plot_config":270,"./notifier":247}],242:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -47787,13 +46773,7 @@ module.exports = function makeTraceGroups(traceLayer, cdModule, cls) {
 };
 
 },{"@plotly/d3":19}],243:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -47939,13 +46919,7 @@ exports.inverseTransformMatrix = function(m) {
 };
 
 },{"gl-mat4":39}],244:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -47974,13 +46948,7 @@ module.exports = {
 };
 
 },{}],245:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -48220,13 +47188,7 @@ function badContainer(container, propStr, propParts) {
 }
 
 },{"./array":223,"fast-isnumeric":23}],246:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -48236,13 +47198,7 @@ function badContainer(container, propStr, propParts) {
 module.exports = function noop() {};
 
 },{}],247:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -48324,13 +47280,7 @@ module.exports = function(text, displayLength) {
 };
 
 },{"@plotly/d3":19,"fast-isnumeric":23}],248:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -48372,13 +47322,7 @@ module.exports = function overrideCursor(el3, csr) {
 };
 
 },{"./setcursor":257}],249:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -48624,13 +47568,7 @@ polygon.filter = function filter(pts, tolerance) {
 };
 
 },{"../constants/numerical":216,"./matrix":243}],250:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -48694,13 +47632,7 @@ function getUserAgent() {
 }
 
 },{"fast-isnumeric":23,"is-mobile":57}],251:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -48732,13 +47664,7 @@ module.exports = function pushUnique(array, item) {
 };
 
 },{}],252:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -48932,13 +47858,7 @@ queue.plotDo = function(gd, func, args) {
 module.exports = queue;
 
 },{"../lib":237,"../plot_api/plot_config":270}],253:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -48962,13 +47882,7 @@ exports.counter = function(head, tail, openEnded, matchBeginning) {
 };
 
 },{}],254:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -49015,13 +47929,7 @@ module.exports = function(baseAttr, relativeAttr) {
 };
 
 },{}],255:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -49072,13 +47980,7 @@ module.exports = function relinkPrivateKeys(toContainer, fromContainer) {
 };
 
 },{"./array":223,"./is_plain_object":238}],256:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -49277,13 +48179,7 @@ exports.findIndexOfMin = function(arr, fn) {
 };
 
 },{"../constants/numerical":216,"./identity":235,"./loggers":241,"fast-isnumeric":23}],257:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -49300,13 +48196,7 @@ module.exports = function setCursor(el3, csr) {
 };
 
 },{}],258:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -49410,13 +48300,7 @@ exports.interp = function(arr, n) {
 };
 
 },{"./array":223,"fast-isnumeric":23}],259:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -50301,13 +49185,7 @@ exports.makeEditable = function(context, options) {
 };
 
 },{"../constants/alignment":210,"../constants/xmlns_namespaces":217,"../lib":237,"@plotly/d3":19}],260:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -50404,13 +49282,7 @@ function _clearTimeout(cache) {
 }
 
 },{}],261:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -50432,13 +49304,7 @@ module.exports = function toLogRange(val, range) {
 };
 
 },{"fast-isnumeric":23}],262:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -50454,13 +49320,7 @@ module.exports = {
 };
 
 },{}],263:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -50497,13 +49357,7 @@ module.exports = {
 };
 
 },{}],264:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -50555,13 +49409,7 @@ module.exports = function containerArrayMatch(astr) {
 };
 
 },{"../registry":319}],265:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -50678,13 +49526,7 @@ function overrideOne(attr, editTypeOverride, overrideContainers, key) {
 }
 
 },{"../lib":237}],266:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -51380,13 +50222,7 @@ exports.clearAxisTypes = function(gd, traces, layoutUpdate) {
 };
 
 },{"../components/color":108,"../lib":237,"../plots/cartesian/axis_ids":286,"../plots/plots":317,"../registry":319,"fast-isnumeric":23,"gl-mat4/fromQuat":29}],267:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -51423,13 +50259,7 @@ exports.makeTemplate = templateApi.makeTemplate;
 exports.validateTemplate = templateApi.validateTemplate;
 
 },{"../snapshot/download":321,"./plot_api":269,"./template_api":274,"./to_image":275,"./validate":276}],268:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -51636,13 +50466,7 @@ exports.applyContainerArrayChanges = function applyContainerArrayChanges(gd, np,
 };
 
 },{"../lib/is_plain_object":238,"../lib/loggers":241,"../lib/noop":246,"../lib/search":256,"../registry":319,"./container_array_match":264}],269:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -55451,13 +54275,7 @@ exports._guiUpdate = guiEdit(update);
 exports._storeDirectGUIEdit = _storeDirectGUIEdit;
 
 },{"../components/color":108,"../components/drawing":130,"../constants/xmlns_namespaces":217,"../lib":237,"../lib/events":230,"../lib/queue":252,"../plots/cartesian/axes":283,"../plots/cartesian/constants":289,"../plots/cartesian/graph_interact":292,"../plots/cartesian/select":302,"../plots/plots":317,"../registry":319,"./edit_types":265,"./helpers":266,"./manage_arrays":268,"./plot_config":270,"./plot_schema":271,"./subroutines":273,"@plotly/d3":19,"fast-isnumeric":23,"has-hover":54}],270:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -55720,13 +54538,7 @@ module.exports = {
 };
 
 },{}],271:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -56393,13 +55205,7 @@ function insertAttrs(baseAttrs, newAttrs, astr) {
 }
 
 },{"../lib":237,"../plots/animation_attributes":277,"../plots/attributes":279,"../plots/frame_attributes":312,"../plots/layout_attributes":315,"../registry":319,"./edit_types":265,"./plot_config":270}],272:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -56701,13 +55507,7 @@ exports.arrayEditor = function(parentIn, containerStr, itemOut) {
 };
 
 },{"../lib":237,"../plots/attributes":279}],273:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -57425,13 +56225,7 @@ exports.drawMarginPushers = function(gd) {
 };
 
 },{"../components/color":108,"../components/drawing":130,"../components/modebar":168,"../components/titles":203,"../constants/alignment":210,"../lib":237,"../lib/clear_gl_canvases":225,"../plots/cartesian/autorange":282,"../plots/cartesian/axes":283,"../plots/cartesian/constraints":290,"../plots/plots":317,"../registry":319,"@plotly/d3":19}],274:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -57887,13 +56681,7 @@ function format(opts) {
 }
 
 },{"../lib":237,"../plots/attributes":279,"../plots/plots":317,"./plot_config":270,"./plot_schema":271,"./plot_template":272}],275:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58102,13 +56890,7 @@ function toImage(gd, opts) {
 module.exports = toImage;
 
 },{"../lib":237,"../plots/plots":317,"../snapshot/helpers":323,"../snapshot/svgtoimg":325,"../snapshot/tosvg":327,"../version":465,"./plot_api":269,"fast-isnumeric":23}],276:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58533,13 +57315,7 @@ function convertPathToAttributeString(path) {
 }
 
 },{"../lib":237,"../plots/plots":317,"./plot_config":270,"./plot_schema":271}],277:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58629,13 +57405,7 @@ module.exports = {
 };
 
 },{}],278:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58724,13 +57494,7 @@ module.exports = function handleArrayContainerDefaults(parentObjIn, parentObjOut
 };
 
 },{"../lib":237,"../plot_api/plot_template":272}],279:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58837,13 +57601,7 @@ module.exports = {
 };
 
 },{"../components/fx/attributes":139}],280:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58929,13 +57687,7 @@ module.exports = function alignPeriod(trace, ax, axLetter, vals) {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"fast-isnumeric":23}],281:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -58954,13 +57706,7 @@ module.exports = {
 };
 
 },{}],282:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -59563,13 +58309,7 @@ function lessOrEqual(v0, v1) { return v0 <= v1; }
 function greaterOrEqual(v0, v1) { return v0 >= v1; }
 
 },{"../../constants/numerical":216,"../../lib":237,"../../registry":319,"./axis_ids":286,"fast-isnumeric":23}],283:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -63283,13 +62023,7 @@ function moveOutsideBreak(v, ax) {
 }
 
 },{"../../components/color":108,"../../components/drawing":130,"../../components/titles":203,"../../constants/alignment":210,"../../constants/numerical":216,"../../lib":237,"../../lib/svg_text_utils":259,"../../plots/plots":317,"../../registry":319,"./autorange":282,"./axis_autotype":284,"./axis_ids":286,"./clean_ticks":288,"./layout_attributes":297,"./set_convert":303,"@plotly/d3":19,"fast-isnumeric":23}],284:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -63414,13 +62148,7 @@ function multiCategory(a) {
 }
 
 },{"../../constants/numerical":216,"../../lib":237,"fast-isnumeric":23}],285:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -63722,13 +62450,7 @@ function indexOfDay(v) {
 }
 
 },{"../../lib":237,"../../registry":319,"../array_container_defaults":278,"./category_order_defaults":287,"./constants":289,"./layout_attributes":297,"./line_grid_defaults":299,"./set_convert":303,"./tick_label_defaults":304,"./tick_mark_defaults":305,"./tick_value_defaults":306,"fast-isnumeric":23}],286:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -63878,13 +62600,7 @@ exports.isLinked = function(fullLayout, axId) {
 };
 
 },{"../../registry":319,"./constants":289}],287:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -63972,13 +62688,7 @@ module.exports = function handleCategoryOrderDefaults(containerIn, containerOut,
 };
 
 },{}],288:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -64064,13 +62774,7 @@ exports.tick0 = function(tick0, axType, calendar, dtick) {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"fast-isnumeric":23}],289:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -64156,13 +62860,7 @@ module.exports = {
 };
 
 },{"../../lib/regex":253}],290:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -64807,13 +63505,7 @@ function updateDomain(ax, factor) {
 }
 
 },{"../../constants/alignment":210,"../../constants/numerical":216,"../../lib":237,"./autorange":282,"./axis_ids":286,"./layout_attributes":297,"./scale_zoom":301,"./set_convert":303}],291:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -66145,13 +64837,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/dragelement":127,"../../components/dragelement/helpers":126,"../../components/drawing":130,"../../components/fx":148,"../../constants/alignment":210,"../../lib":237,"../../lib/clear_gl_canvases":225,"../../lib/setcursor":257,"../../lib/svg_text_utils":259,"../../plot_api/subroutines":273,"../../registry":319,"../plots":317,"./axes":283,"./axis_ids":286,"./constants":289,"./scale_zoom":301,"./select":302,"@plotly/d3":19,"has-passive-events":55,"tinycolor2":73}],292:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -66313,13 +64999,7 @@ exports.updateFx = function(gd) {
 };
 
 },{"../../components/dragelement":127,"../../components/fx":148,"../../lib/setcursor":257,"./constants":289,"./dragbox":291,"@plotly/d3":19}],293:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -66349,13 +65029,7 @@ module.exports = {
 };
 
 },{}],294:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -66406,13 +65080,7 @@ module.exports = {
 };
 
 },{"../../lib":237}],295:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -66484,13 +65152,7 @@ module.exports = function makeIncludeComponents(containerArrayName) {
 };
 
 },{"../../lib":237,"../../registry":319,"./axis_ids":286}],296:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -67102,13 +65764,7 @@ exports.toSVG = function(gd) {
 exports.updateFx = _dereq_('./graph_interact').updateFx;
 
 },{"../../components/drawing":130,"../../constants/xmlns_namespaces":217,"../../lib":237,"../../registry":319,"../get_data":313,"../plots":317,"./attributes":281,"./axis_ids":286,"./constants":289,"./graph_interact":292,"./layout_attributes":297,"./layout_defaults":298,"./transition_axes":307,"@plotly/d3":19}],297:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -67661,13 +66317,7 @@ module.exports = {
 };
 
 },{"../../components/color/attributes":107,"../../components/drawing/attributes":129,"../../constants/docs":213,"../../constants/numerical":216,"../../lib/extend":231,"../../plot_api/plot_template":272,"../font_attributes":311,"./constants":289}],298:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -68048,13 +66698,7 @@ module.exports = function supplyLayoutDefaults(layoutIn, layoutOut, fullData) {
 };
 
 },{"../../components/color":108,"../../components/fx/helpers":144,"../../components/fx/hovermode_defaults":147,"../../lib":237,"../../plot_api/plot_template":272,"../../registry":319,"../layout_attributes":315,"./axis_defaults":285,"./axis_ids":286,"./constants":289,"./constraints":290,"./layout_attributes":297,"./position_defaults":300,"./type_defaults":308}],299:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -68113,13 +66757,7 @@ module.exports = function handleLineGridDefaults(containerIn, containerOut, coer
 };
 
 },{"../../components/color/attributes":107,"../../lib":237,"tinycolor2":73}],300:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -68201,13 +66839,7 @@ module.exports = function handlePositionDefaults(containerIn, containerOut, coer
 };
 
 },{"../../lib":237,"fast-isnumeric":23}],301:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -68230,13 +66862,7 @@ module.exports = function scaleZoom(ax, factor, centerFraction) {
 };
 
 },{"../../constants/alignment":210}],302:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -69173,13 +67799,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/dragelement/helpers":126,"../../components/drawing":130,"../../components/fx":148,"../../components/fx/helpers":144,"../../components/shapes/draw_newshape/display_outlines":193,"../../components/shapes/draw_newshape/helpers":194,"../../components/shapes/draw_newshape/newshapes":195,"../../lib":237,"../../lib/clear_gl_canvases":225,"../../lib/polygon":249,"../../lib/throttle":260,"../../plot_api/subroutines":273,"../../registry":319,"./axis_ids":286,"./constants":289,"./handle_outline":293,"./helpers":294,"polybooljs":63}],303:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -70131,13 +68751,7 @@ module.exports = function setConvert(ax, fullLayout) {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"./axis_ids":286,"./constants":289,"@plotly/d3":19,"d3-time-format":21,"fast-isnumeric":23}],304:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -70258,13 +68872,7 @@ function tickformatstopDefaults(valueIn, valueOut) {
 }
 
 },{"../../components/color":108,"../../lib":237,"../array_container_defaults":278,"./layout_attributes":297}],305:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -70291,13 +68899,7 @@ module.exports = function handleTickDefaults(containerIn, containerOut, coerce, 
 };
 
 },{"../../lib":237,"./layout_attributes":297}],306:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -70338,13 +68940,7 @@ module.exports = function handleTickValueDefaults(containerIn, containerOut, coe
 };
 
 },{"../../lib":237,"./clean_ticks":288}],307:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -70551,13 +69147,7 @@ module.exports = function transitionAxes(gd, edits, transitionOpts, makeOnComple
 };
 
 },{"../../components/drawing":130,"../../lib":237,"../../registry":319,"./axes":283,"@plotly/d3":19}],308:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -70691,13 +69281,7 @@ function isBoxWithoutPositionCoords(trace, axLetter) {
 }
 
 },{"../../registry":319,"./axis_autotype":284}],309:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71118,13 +69702,7 @@ function crawl(attrs, callback, path, depth) {
 }
 
 },{"../lib":237,"../registry":319}],310:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71223,13 +69801,7 @@ exports.defaults = function(containerOut, layout, coerce, dfltDomains) {
 };
 
 },{"../lib/extend":231}],311:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71283,13 +69855,7 @@ module.exports = function(opts) {
 };
 
 },{}],312:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71317,13 +69883,7 @@ module.exports = {
 };
 
 },{}],313:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71446,13 +70006,7 @@ exports.getSubplotData = function getSubplotData(data, type, subplotId) {
 };
 
 },{"../registry":319,"./cartesian/constants":289}],314:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -71480,13 +70034,7 @@ function project(camera, v) {
 module.exports = project;
 
 },{}],315:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71740,13 +70288,7 @@ module.exports = {
 };
 
 },{"../components/color/attributes":107,"../components/shapes/draw_newshape/attributes":190,"../lib/extend":231,"./animation_attributes":277,"./font_attributes":311,"./pad_attributes":316}],316:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -71787,13 +70329,7 @@ module.exports = function(opts) {
 };
 
 },{}],317:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -75195,13 +73731,7 @@ plots.cleanBasePlot = function(desiredType, newFullData, newFullLayout, oldFullD
 };
 
 },{"../components/color":108,"../constants/numerical":216,"../lib":237,"../plot_api/plot_schema":271,"../plot_api/plot_template":272,"../plots/get_data":313,"../registry":319,"./animation_attributes":277,"./attributes":279,"./cartesian/axis_ids":286,"./cartesian/handle_outline":293,"./command":309,"./font_attributes":311,"./frame_attributes":312,"./layout_attributes":315,"@plotly/d3":19,"d3-time-format":21,"fast-isnumeric":23}],318:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -75274,13 +73804,7 @@ exports.texttemplateAttrs = function(opts, extra) {
 };
 
 },{"../constants/docs":213}],319:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -75740,13 +74264,7 @@ function getTraceType(traceType) {
 }
 
 },{"./lib/dom":229,"./lib/extend":231,"./lib/is_plain_object":238,"./lib/loggers":241,"./lib/noop":246,"./lib/push_unique":251,"./plots/attributes":279,"./plots/layout_attributes":315}],320:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -75908,13 +74426,7 @@ module.exports = function clonePlot(graphObj, options) {
 };
 
 },{"../lib":237,"../registry":319}],321:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -75980,13 +74492,7 @@ function downloadImage(gd, opts) {
 module.exports = downloadImage;
 
 },{"../lib":237,"../plot_api/to_image":275,"./filesaver":322,"./helpers":323}],322:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76056,13 +74562,7 @@ function fileSaver(url, name, format) {
 module.exports = fileSaver;
 
 },{"../lib":237,"./helpers":323}],323:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76133,13 +74633,7 @@ exports.IMAGE_URL_PREFIX = /^data:image\/\w+;base64,/;
 exports.MSG_IE_BAD_FORMAT = 'Sorry IE does not support downloading from canvas. Try {format:\'svg\'} instead.';
 
 },{"../registry":319}],324:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -76159,13 +74653,7 @@ var Snapshot = {
 module.exports = Snapshot;
 
 },{"./cloneplot":320,"./download":321,"./helpers":323,"./svgtoimg":325,"./toimage":326,"./tosvg":327}],325:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76286,13 +74774,7 @@ function svgToImg(opts) {
 module.exports = svgToImg;
 
 },{"../lib":237,"./helpers":323,"events":20}],326:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76363,13 +74845,7 @@ function toImage(gd, opts) {
 module.exports = toImage;
 
 },{"../lib":237,"../registry":319,"./cloneplot":320,"./helpers":323,"./svgtoimg":325,"./tosvg":327,"events":20}],327:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -76554,13 +75030,7 @@ module.exports = function toSVG(gd, format, scale) {
 };
 
 },{"../components/color":108,"../components/drawing":130,"../constants/xmlns_namespaces":217,"../lib":237,"@plotly/d3":19}],328:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76587,13 +75057,7 @@ module.exports = function arraysToCalcdata(cd, trace) {
 };
 
 },{"../../lib":237}],329:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76771,13 +75235,7 @@ module.exports = {
 };
 
 },{"../../components/colorscale/attributes":115,"../../lib/extend":231,"../../plots/font_attributes":311,"../../plots/template_attributes":318,"../scatter/attributes":420,"./constants":331}],330:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -76850,13 +75308,7 @@ module.exports = function calc(gd, trace) {
 };
 
 },{"../../components/colorscale/calc":116,"../../components/colorscale/helpers":119,"../../plots/cartesian/align_period":280,"../../plots/cartesian/axes":283,"../scatter/calc_selection":422,"./arrays_to_calcdata":328}],331:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -76872,13 +75324,7 @@ module.exports = {
 };
 
 },{}],332:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -77652,13 +76098,7 @@ module.exports = {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"../../plots/cartesian/axes":283,"../../plots/cartesian/constraints":290,"../../registry":319,"./sieve.js":342,"fast-isnumeric":23}],333:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -77837,13 +76277,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../lib":237,"../../plots/cartesian/constraints":290,"../../registry":319,"../scatter/period_defaults":440,"../scatter/xy_defaults":447,"./attributes":329,"./style_defaults":344}],334:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -77866,13 +76300,7 @@ module.exports = function eventData(out, pt, trace) {
 };
 
 },{}],335:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -77944,13 +76372,7 @@ exports.getLineWidth = function(trace, di) {
 };
 
 },{"../../lib":237,"fast-isnumeric":23,"tinycolor2":73}],336:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -78140,13 +76562,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/fx":148,"../../constants/numerical":216,"../../lib":237,"../../plots/cartesian/axes":283,"../../registry":319,"./helpers":335}],337:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -78177,13 +76593,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"../scatter/marker_colorbar":438,"./arrays_to_calcdata":328,"./attributes":329,"./calc":330,"./cross_trace_calc":332,"./defaults":333,"./event_data":334,"./hover":336,"./layout_attributes":338,"./layout_defaults":339,"./plot":340,"./select":341,"./style":343}],338:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -78217,13 +76627,7 @@ module.exports = {
 };
 
 },{}],339:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -78277,13 +76681,7 @@ module.exports = function(layoutIn, layoutOut, fullData) {
 };
 
 },{"../../lib":237,"../../plots/cartesian/axes":283,"../../registry":319,"./layout_attributes":338}],340:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79062,13 +77460,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"../../components/fx/helpers":144,"../../lib":237,"../../lib/svg_text_utils":259,"../../plots/cartesian/axes":283,"../../registry":319,"./attributes":329,"./constants":331,"./helpers":335,"./style":343,"./uniform_text":345,"@plotly/d3":19,"fast-isnumeric":23}],341:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79126,13 +77518,7 @@ function getCentroid(d, xa, ya, isHorizontal, isFunnel) {
 }
 
 },{}],342:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79240,13 +77626,7 @@ Sieve.prototype.getLabel = function getLabel(position, value) {
 };
 
 },{"../../constants/numerical":216,"../../lib":237}],343:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79422,13 +77802,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"../../lib":237,"../../registry":319,"./attributes":329,"./helpers":335,"./uniform_text":345,"@plotly/d3":19}],344:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79460,13 +77834,7 @@ module.exports = function handleStyleDefaults(traceIn, traceOut, coerce, default
 };
 
 },{"../../components/color":108,"../../components/colorscale/defaults":118,"../../components/colorscale/helpers":119}],345:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79546,13 +77914,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"@plotly/d3":19}],346:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -79786,13 +78148,7 @@ module.exports = {
 };
 
 },{"../../components/color/attributes":107,"../../lib/extend":231,"../../plots/template_attributes":318,"../bar/attributes":329,"../scatter/attributes":420}],347:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80018,13 +78374,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../../plots/cartesian/axes":283,"../../plots/cartesian/constraints":290}],348:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80053,13 +78403,7 @@ module.exports = {
 };
 
 },{}],349:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80099,13 +78443,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../../registry":319,"./layout_attributes":348}],350:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80449,13 +78787,7 @@ module.exports = {
 };
 
 },{"../../components/drawing":130,"../../lib":237,"@plotly/d3":19}],351:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80523,13 +78855,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"@plotly/d3":19}],352:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -80580,13 +78906,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../box/attributes":346,"../ohlc/attributes":398}],353:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80632,13 +78952,7 @@ function ptFunc(o, h, l, c) {
 }
 
 },{"../../lib":237,"../../plots/cartesian/align_period":280,"../../plots/cartesian/axes":283,"../ohlc/calc":399}],354:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -80681,13 +78995,7 @@ function handleDirection(traceIn, traceOut, coerce, direction) {
 }
 
 },{"../../components/color":108,"../../lib":237,"../ohlc/ohlc_defaults":403,"../scatter/period_defaults":440,"./attributes":352}],355:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80713,13 +79021,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"../box/cross_trace_calc":347,"../box/layout_attributes":348,"../box/layout_defaults":349,"../box/plot":350,"../box/style":351,"../ohlc/hover":401,"../ohlc/select":405,"./attributes":352,"./calc":353,"./defaults":354}],356:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80746,13 +79048,7 @@ module.exports = function arraysToCalcdata(cd, trace) {
 };
 
 },{"../../lib":237}],357:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80846,13 +79142,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../lib/extend":231,"../../plots/attributes":279,"../../plots/template_attributes":318,"../bar/attributes":329,"../scatter/attributes":420,"./constants":359}],358:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80950,13 +79240,7 @@ function fixNum(a) {
 }
 
 },{"../../constants/numerical":216,"../../plots/cartesian/align_period":280,"../../plots/cartesian/axes":283,"../scatter/calc_selection":422,"./arrays_to_calcdata":356}],359:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -80969,13 +79253,7 @@ module.exports = {
 };
 
 },{}],360:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81040,13 +79318,7 @@ module.exports = function crossTraceCalc(gd, plotinfo) {
 };
 
 },{"../bar/cross_trace_calc":332}],361:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81140,13 +79412,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../lib":237,"../bar/defaults":333,"../scatter/period_defaults":440,"../scatter/xy_defaults":447,"./attributes":357}],362:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81167,13 +79433,7 @@ module.exports = function eventData(out, pt /* , trace, cd, pointNumber */) {
 };
 
 },{}],363:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81240,13 +79500,7 @@ function getTraceColor(trace, di) {
 }
 
 },{"../../components/color":108,"../../lib":237,"../bar/hover":336}],364:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81274,13 +79528,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"../bar/select":341,"./attributes":357,"./calc":358,"./cross_trace_calc":360,"./defaults":361,"./event_data":362,"./hover":363,"./layout_attributes":365,"./layout_defaults":366,"./plot":367,"./style":368}],365:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81307,13 +79555,7 @@ module.exports = {
 };
 
 },{}],366:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81344,13 +79586,7 @@ module.exports = function(layoutIn, layoutOut, fullData) {
 };
 
 },{"../../lib":237,"./layout_attributes":365}],367:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81513,13 +79749,7 @@ function getXY(di, xa, ya, isHorizontal) {
 }
 
 },{"../../components/drawing":130,"../../constants/numerical":216,"../../lib":237,"../bar/plot":340,"../bar/uniform_text":345,"@plotly/d3":19}],368:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81578,13 +79808,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"../../constants/interactions":215,"../bar/style":343,"../bar/uniform_text":345,"@plotly/d3":19}],369:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81674,13 +79898,7 @@ module.exports = {
 };
 
 },{"../../lib/extend":231,"../../plots/attributes":279,"../../plots/domain":310,"../../plots/template_attributes":318,"../pie/attributes":407}],370:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81697,13 +79915,7 @@ exports.clean = function(newFullData, newFullLayout, oldFullData, oldFullLayout)
 };
 
 },{"../../plots/plots":317}],371:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81723,13 +79935,7 @@ module.exports = {
 };
 
 },{"../pie/calc":409}],372:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81805,13 +80011,7 @@ module.exports = function supplyDefaults(traceIn, traceOut, defaultColor, layout
 };
 
 },{"../../lib":237,"../../plots/domain":310,"../bar/defaults":333,"../pie/defaults":410,"./attributes":369}],373:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81838,13 +80038,7 @@ module.exports = {
 };
 
 },{"../pie/style_one":418,"./attributes":369,"./base_plot":370,"./calc":371,"./defaults":372,"./layout_attributes":374,"./layout_defaults":375,"./plot":376,"./style":377}],374:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81865,13 +80059,7 @@ module.exports = {
 };
 
 },{"../pie/layout_attributes":414}],375:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -81890,13 +80078,7 @@ module.exports = function supplyLayoutDefaults(layoutIn, layoutOut) {
 };
 
 },{"../../lib":237,"./layout_attributes":374}],376:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -82188,13 +80370,7 @@ function setCoords(cd) {
 }
 
 },{"../../components/drawing":130,"../../lib":237,"../../lib/svg_text_utils":259,"../bar/plot":340,"../bar/uniform_text":345,"../pie/helpers":412,"../pie/plot":416,"@plotly/d3":19}],377:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -82221,13 +80397,7 @@ module.exports = function style(gd) {
 };
 
 },{"../bar/uniform_text":345,"../pie/style_one":418,"@plotly/d3":19}],378:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -82338,13 +80508,7 @@ module.exports = {
 };
 
 },{"../../lib/extend":231,"../../plots/template_attributes":318,"../bar/attributes":329,"./bin_attributes":380,"./constants":384}],379:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -82363,13 +80527,7 @@ module.exports = function doAvg(size, counts) {
 };
 
 },{}],380:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -82392,13 +80550,7 @@ module.exports = function makeBinAttrs(axLetter, match) {
 };
 
 },{}],381:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -82466,13 +80618,7 @@ module.exports = {
 };
 
 },{"fast-isnumeric":23}],382:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -82642,13 +80788,7 @@ function dateParts(v, pa, calendar) {
 }
 
 },{"../../constants/numerical":216,"../../plots/cartesian/axes":283}],383:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -83221,13 +81361,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../../plots/cartesian/axes":283,"../../registry":319,"../bar/arrays_to_calcdata":328,"./average":379,"./bin_functions":381,"./bin_label_vals":382,"./norm_functions":390,"fast-isnumeric":23}],384:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -83237,13 +81371,7 @@ module.exports = {
 };
 
 },{}],385:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -83514,13 +81642,7 @@ module.exports = function crossTraceDefaults(fullData, fullLayout) {
 };
 
 },{"../../lib":237,"../../plots/cartesian/axis_ids":286,"../../plots/cartesian/constraints":290,"../../registry":319,"../bar/defaults":333}],386:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -83588,13 +81710,7 @@ module.exports = function supplyDefaults(traceIn, traceOut, defaultColor, layout
 };
 
 },{"../../components/color":108,"../../lib":237,"../../registry":319,"../bar/style_defaults":344,"./attributes":378}],387:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -83637,13 +81753,7 @@ module.exports = function eventData(out, pt, trace, cd, pointNumber) {
 };
 
 },{}],388:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -83670,13 +81780,7 @@ module.exports = function hoverPoints(pointData, xval, yval, hovermode) {
 };
 
 },{"../../plots/cartesian/axes":283,"../bar/hover":336}],389:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -83719,13 +81823,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"../bar/cross_trace_calc":332,"../bar/layout_attributes":338,"../bar/layout_defaults":339,"../bar/plot":340,"../bar/select":341,"../bar/style":343,"../scatter/marker_colorbar":438,"./attributes":378,"./calc":383,"./cross_trace_defaults":385,"./defaults":386,"./event_data":387,"./hover":388}],390:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -83754,13 +81852,7 @@ module.exports = {
 };
 
 },{}],391:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -84013,13 +82105,7 @@ module.exports = {
 };
 
 },{"../../components/color/attributes":107,"../../constants/delta.js":212,"../../constants/docs":213,"../../lib/extend":231,"../../plot_api/edit_types":265,"../../plot_api/plot_template":272,"../../plots/cartesian/layout_attributes":297,"../../plots/domain":310,"../../plots/font_attributes":311}],392:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -84036,13 +82122,7 @@ exports.clean = function(newFullData, newFullLayout, oldFullData, oldFullLayout)
 };
 
 },{"../../plots/plots":317}],393:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -84073,13 +82153,7 @@ module.exports = {
 };
 
 },{}],394:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -84095,13 +82169,7 @@ module.exports = {
 };
 
 },{}],395:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -84262,13 +82330,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../../plot_api/plot_template":272,"../../plots/array_container_defaults":278,"../../plots/cartesian/tick_label_defaults":304,"../../plots/cartesian/tick_mark_defaults":305,"../../plots/cartesian/tick_value_defaults":306,"../../plots/domain":310,"./attributes":391,"./constants.js":394}],396:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -84291,13 +82353,7 @@ module.exports = {
 };
 
 },{"./attributes":391,"./base_plot":392,"./calc":393,"./defaults":395,"./plot":397}],397:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85170,13 +83226,7 @@ function cache(trace, name, initialValue, value, key, fn) {
 }
 
 },{"../../components/color":108,"../../components/drawing":130,"../../constants/alignment":210,"../../lib":237,"../../lib/svg_text_utils":259,"../../plots/cartesian/axes":283,"../../plots/cartesian/axis_defaults":285,"../../plots/cartesian/layout_attributes":297,"../../plots/cartesian/position_defaults":300,"./constants":394,"@plotly/d3":19}],398:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -85278,13 +83328,7 @@ module.exports = {
 };
 
 },{"../../components/drawing/attributes":129,"../../components/fx/attributes":139,"../../constants/delta.js":212,"../../lib":237,"../scatter/attributes":420}],399:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85459,13 +83503,7 @@ module.exports = {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"../../plots/cartesian/align_period":280,"../../plots/cartesian/axes":283}],400:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -85508,13 +83546,7 @@ function handleDirection(traceIn, traceOut, coerce, direction) {
 }
 
 },{"../../lib":237,"../scatter/period_defaults":440,"./attributes":398,"./ohlc_defaults":403}],401:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85715,13 +83747,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/fx":148,"../../constants/delta.js":212,"../../lib":237,"../../plots/cartesian/axes":283}],402:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85743,13 +83769,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"./attributes":398,"./calc":399,"./defaults":400,"./hover":401,"./plot":404,"./select":405,"./style":406}],403:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85778,13 +83798,7 @@ module.exports = function handleOHLC(traceIn, traceOut, coerce, layout) {
 };
 
 },{"../../lib":237,"../../registry":319}],404:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85836,13 +83850,7 @@ module.exports = function plot(gd, plotinfo, cdOHLC, ohlcLayer) {
 };
 
 },{"../../lib":237,"@plotly/d3":19}],405:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85881,13 +83889,7 @@ module.exports = function selectPoints(searchInfo, selectionTester) {
 };
 
 },{}],406:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -85920,13 +83922,7 @@ module.exports = function style(gd, cd, sel) {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"@plotly/d3":19}],407:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86143,13 +84139,7 @@ module.exports = {
 };
 
 },{"../../components/color/attributes":107,"../../lib/extend":231,"../../plots/attributes":279,"../../plots/domain":310,"../../plots/font_attributes":311,"../../plots/template_attributes":318}],408:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86166,13 +84156,7 @@ exports.clean = function(newFullData, newFullLayout, oldFullData, oldFullLayout)
 };
 
 },{"../../plots/plots":317}],409:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86349,13 +84333,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"fast-isnumeric":23,"tinycolor2":73}],410:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86480,13 +84458,7 @@ module.exports = {
 };
 
 },{"../../lib":237,"../../plots/domain":310,"../bar/defaults":333,"./attributes":407,"fast-isnumeric":23}],411:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86529,13 +84501,7 @@ module.exports = function eventData(pt, trace) {
 };
 
 },{"../../components/fx/helpers":144}],412:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86577,13 +84543,7 @@ exports.getRotationAngle = function(rotation) {
 };
 
 },{"../../lib":237}],413:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86609,13 +84569,7 @@ module.exports = {
 };
 
 },{"./attributes":407,"./base_plot":408,"./calc":409,"./defaults":410,"./layout_attributes":414,"./layout_defaults":415,"./plot":416,"./style":417,"./style_one":418}],414:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86636,13 +84590,7 @@ module.exports = {
 };
 
 },{}],415:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -86661,13 +84609,7 @@ module.exports = function supplyLayoutDefaults(layoutIn, layoutOut) {
 };
 
 },{"../../lib":237,"./layout_attributes":414}],416:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -87841,13 +85783,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"../../components/fx":148,"../../lib":237,"../../lib/svg_text_utils":259,"../../plots/plots":317,"../bar/constants":331,"../bar/uniform_text":345,"./event_data":411,"./helpers":412,"@plotly/d3":19}],417:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -87874,13 +85810,7 @@ module.exports = function style(gd) {
 };
 
 },{"../bar/uniform_text":345,"./style_one":418,"@plotly/d3":19}],418:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -87898,13 +85828,7 @@ module.exports = function styleOne(s, pt, trace) {
 };
 
 },{"../../components/color":108,"./helpers":412}],419:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -87950,13 +85874,7 @@ module.exports = function arraysToCalcdata(cd, trace) {
 };
 
 },{"../../lib":237}],420:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -88304,13 +86222,7 @@ module.exports = {
 };
 
 },{"../../components/colorscale/attributes":115,"../../components/drawing":130,"../../components/drawing/attributes":129,"../../lib/extend":231,"../../plots/font_attributes":311,"../../plots/template_attributes":318,"./constants":424}],421:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -88603,13 +86515,7 @@ module.exports = {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"../../plots/cartesian/align_period":280,"../../plots/cartesian/axes":283,"./arrays_to_calcdata":419,"./calc_selection":422,"./colorscale_calc":423,"./subtypes":445,"fast-isnumeric":23}],422:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -88622,13 +86528,7 @@ module.exports = function calcSelection(cd, trace) {
 };
 
 },{"../../lib":237}],423:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -88665,13 +86565,7 @@ module.exports = function calcMarkerColorscale(gd, trace) {
 };
 
 },{"../../components/colorscale/calc":116,"../../components/colorscale/helpers":119,"./subtypes":445}],424:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -88694,13 +86588,7 @@ module.exports = {
 };
 
 },{}],425:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -88875,13 +86763,7 @@ function getInterp(calcTrace, index, position, posAttr) {
 }
 
 },{"./calc":421}],426:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -88914,13 +86796,7 @@ module.exports = function crossTraceDefaults(fullData) {
 };
 
 },{}],427:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -89007,13 +86883,7 @@ module.exports = function supplyDefaults(traceIn, traceOut, defaultColor, layout
 };
 
 },{"../../lib":237,"../../registry":319,"./attributes":420,"./constants":424,"./fillcolor_defaults":428,"./line_defaults":433,"./line_shape_defaults":435,"./marker_defaults":439,"./period_defaults":440,"./stack_defaults":443,"./subtypes":445,"./text_defaults":446,"./xy_defaults":447}],428:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -89044,13 +86914,7 @@ module.exports = function fillColorDefaults(traceIn, traceOut, defaultColor, coe
 };
 
 },{"../../components/color":108,"../../lib":237}],429:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -89070,13 +86934,7 @@ module.exports = function formatLabels(cdi, trace, fullLayout) {
 };
 
 },{"../../plots/cartesian/axes":283}],430:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -89119,13 +86977,7 @@ module.exports = function getTraceColor(trace, di) {
 };
 
 },{"../../components/color":108,"./subtypes":445}],431:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -89314,13 +87166,7 @@ module.exports = function hoverPoints(pointData, xval, yval, hovermode) {
 };
 
 },{"../../components/color":108,"../../components/fx":148,"../../lib":237,"../../registry":319,"./get_trace_color":430}],432:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -89359,13 +87205,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"./arrays_to_calcdata":419,"./attributes":420,"./calc":421,"./cross_trace_calc":425,"./cross_trace_defaults":426,"./defaults":427,"./format_labels":429,"./hover":431,"./marker_colorbar":438,"./plot":441,"./select":442,"./style":444,"./subtypes":445}],433:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -89390,13 +87230,7 @@ module.exports = function lineDefaults(traceIn, traceOut, defaultColor, layout, 
 };
 
 },{"../../components/colorscale/defaults":118,"../../components/colorscale/helpers":119,"../../lib":237}],434:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -89851,13 +87685,7 @@ module.exports = function linePoints(d, opts) {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"./constants":424}],435:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -89870,13 +87698,7 @@ module.exports = function handleLineShapeDefaults(traceIn, traceOut, coerce) {
 };
 
 },{}],436:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -89960,13 +87782,7 @@ module.exports = function linkTraces(gd, plotinfo, cdscatter) {
 };
 
 },{}],437:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -90002,13 +87818,7 @@ module.exports = function makeBubbleSizeFn(trace) {
 };
 
 },{"fast-isnumeric":23}],438:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -90020,13 +87830,7 @@ module.exports = {
 };
 
 },{}],439:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -90101,13 +87905,7 @@ module.exports = function markerDefaults(traceIn, traceOut, defaultColor, layout
 };
 
 },{"../../components/color":108,"../../components/colorscale/defaults":118,"../../components/colorscale/helpers":119,"./subtypes":445}],440:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -90148,13 +87946,7 @@ module.exports = function handlePeriodDefaults(traceIn, traceOut, layout, coerce
 };
 
 },{"../../constants/numerical":216,"../../lib":237}],441:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -90709,13 +88501,7 @@ function selectMarkers(gd, idx, plotinfo, cdscatter, cdscatterAll) {
 }
 
 },{"../../components/drawing":130,"../../lib":237,"../../lib/polygon":249,"../../registry":319,"./line_points":434,"./link_traces":436,"./subtypes":445,"@plotly/d3":19}],442:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -90763,13 +88549,7 @@ module.exports = function selectPoints(searchInfo, selectionTester) {
 };
 
 },{"./subtypes":445}],443:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -90868,13 +88648,7 @@ module.exports = function handleStackDefaults(traceIn, traceOut, layout, coerce)
 };
 
 },{}],444:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -90939,13 +88713,7 @@ module.exports = {
 };
 
 },{"../../components/drawing":130,"../../registry":319,"@plotly/d3":19}],445:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -90978,13 +88746,7 @@ module.exports = {
 };
 
 },{"../../lib":237}],446:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 
 'use strict';
@@ -91008,13 +88770,7 @@ module.exports = function(traceIn, traceOut, layout, coerce, opts) {
 };
 
 },{"../../lib":237}],447:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91052,13 +88808,7 @@ module.exports = function handleXYDefaults(traceIn, traceOut, layout, coerce) {
 };
 
 },{"../../lib":237,"../../registry":319}],448:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91190,13 +88940,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../lib/extend":231,"../../plots/attributes":279,"../../plots/template_attributes":318,"../bar/attributes":329,"../scatter/attributes":420,"./constants":450}],449:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91304,13 +89048,7 @@ module.exports = function calc(gd, trace) {
 };
 
 },{"../../constants/numerical":216,"../../lib":237,"../../plots/cartesian/align_period":280,"../../plots/cartesian/axes":283,"../scatter/calc_selection":422}],450:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91323,13 +89061,7 @@ module.exports = {
 };
 
 },{}],451:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91396,13 +89128,7 @@ module.exports = function crossTraceCalc(gd, plotinfo) {
 };
 
 },{"../bar/cross_trace_calc":332}],452:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91505,13 +89231,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../constants/delta.js":212,"../../lib":237,"../bar/defaults":333,"../scatter/period_defaults":440,"../scatter/xy_defaults":447,"./attributes":448}],453:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91532,13 +89252,7 @@ module.exports = function eventData(out, pt /* , trace, cd, pointNumber */) {
 };
 
 },{}],454:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91627,13 +89341,7 @@ function getTraceColor(trace, di) {
 }
 
 },{"../../components/color":108,"../../constants/delta.js":212,"../../plots/cartesian/axes":283,"../bar/hover":336}],455:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91661,13 +89369,7 @@ module.exports = {
 };
 
 },{"../../plots/cartesian":296,"../bar/select":341,"./attributes":448,"./calc":449,"./cross_trace_calc":451,"./defaults":452,"./event_data":453,"./hover":454,"./layout_attributes":456,"./layout_defaults":457,"./plot":458,"./style":459}],456:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91694,13 +89396,7 @@ module.exports = {
 };
 
 },{}],457:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91731,13 +89427,7 @@ module.exports = function(layoutIn, layoutOut, fullData) {
 };
 
 },{"../../lib":237,"./layout_attributes":456}],458:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91862,13 +89552,7 @@ function getXY(di, xa, ya, isHorizontal) {
 }
 
 },{"../../components/drawing":130,"../../constants/numerical":216,"../../lib":237,"../bar/plot":340,"../bar/uniform_text":345,"@plotly/d3":19}],459:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -91923,13 +89607,7 @@ module.exports = {
 };
 
 },{"../../components/color":108,"../../components/drawing":130,"../../constants/interactions":215,"../bar/style":343,"../bar/uniform_text":345,"@plotly/d3":19}],460:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -92335,13 +90013,7 @@ function last(array, indices) {
 }
 
 },{"../constants/numerical":216,"../lib":237,"../plot_api/plot_schema":271,"../plots/cartesian/axes":283,"./helpers":463}],461:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -92603,13 +90275,7 @@ function getFilterFunc(opts, d2c, targetCalendar) {
 }
 
 },{"../constants/filter_ops":214,"../lib":237,"../plots/cartesian/axes":283,"../registry":319,"./helpers":463}],462:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -92855,13 +90521,7 @@ function transformOne(trace, state) {
 }
 
 },{"../lib":237,"../plot_api/plot_schema":271,"../plots/plots":317,"./helpers":463}],463:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -92881,13 +90541,7 @@ exports.pointsAccessorFunction = function(transforms, opts) {
 };
 
 },{}],464:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
@@ -93027,13 +90681,7 @@ function getSortFunc(opts, d2c) {
 }
 
 },{"../constants/numerical":216,"../lib":237,"../plots/cartesian/axes":283,"./helpers":463}],465:[function(_dereq_,module,exports){
-/**
-* Copyright 2012-2021, Plotly, Inc.
-* All rights reserved.
-*
-* This source code is licensed under the MIT license found in the
-* LICENSE file in the root directory of this source tree.
-*/
+
 
 'use strict';
 
